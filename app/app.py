@@ -9,6 +9,7 @@ LAB_TOKEN = os.getenv("LAB_TOKEN") or "unknown"
 
 @app.get("/")
 def index():
+    size = os.environ.get('ROCKET_SIZE', 'default')
     return f"Hello from Docker! Rocket={ROCKET_SIZE}\n"
 
 @app.get("/health")

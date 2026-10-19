@@ -86,4 +86,9 @@ cacf8567da9c   31 minutes ago   CMD ["python" "app/app.py"]                     
    HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
     CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')" || exit 1
    ```
+
+## Правки
+
+   1. **повторное чтение переменной ROCKET_SIZE при каждом запросе**
+       
     

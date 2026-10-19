@@ -90,5 +90,6 @@ cacf8567da9c   31 minutes ago   CMD ["python" "app/app.py"]                     
 ## Правки
 
    1. **повторное чтение переменной ROCKET_SIZE при каждом запросе**
-       
+       <img width="708" height="257" alt="image" src="https://github.com/user-attachments/assets/3541ad5a-5a3c-49ea-a01d-03b830ea34ab" />
+
     
